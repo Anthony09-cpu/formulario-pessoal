@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario Pessoal</title>
+    <link rel="website icon" type="png"
+    href="img/image.png">
+</head>
+<body>
+    <div class="box">
+        <h1>Cadastro de Usuário</h1>
+
+        <form action="">
+                <input type="text" class="nome" name="nome" placeholder="Nome">
+    
+                <input type="text" class="email" name="email" placeholder="E-mail">
+    
+                <input type="password" class="senha" name="senha" placeholder="Senha">
+    
+                <input type="text" class="tel" name="tel" placeholder="Telefone">
+
+                <input type="text" class="cidade" name="cidade" placeholder="Cidade">
+
+                <input type="text" class="estado" name="estado" placeholder="Estado">                            
+            </form>
+            <div class="sexo">
+                <p>Sexo:</p>
+
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+
+                <label for="outro">Outro</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+            </div>
+            <button>Cadastrar</button>
+        </div>
+    </div>
+</body>
+</html>
